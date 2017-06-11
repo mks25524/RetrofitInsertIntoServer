@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button btSignup;
 
-    private List<studentInfo>students;
+
     //root for real device
     public static final String ROOT_URL="http://192.168.0.105:80/";
 
