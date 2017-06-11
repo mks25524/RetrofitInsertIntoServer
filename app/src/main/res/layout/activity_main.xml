@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mks.retrofitinsertintoserver.MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="name"
+       android:id="@+id/nameEt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:id="@+id/usernameEt"
+        android:layout_below="@+id/nameEt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sid"
+        android:id="@+id/sidEt"
+        android:layout_below="@+id/usernameEt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:id="@+id/emailEt"
+        android:layout_below="@+id/sidEt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/passwordEt"
+        android:layout_below="@+id/emailEt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bantch no:"
+        android:id="@+id/batchEt"
+        android:layout_below="@+id/passwordEt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/signupBt"
+        android:layout_below="@+id/batchEt"
+        />
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="show"
+     android:id="@+id/showBt"
+     android:layout_below="@+id/signupBt"
+     />
+
+</RelativeLayout>
